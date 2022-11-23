@@ -1,24 +1,23 @@
-# trabalho-pratico-vue
+<h1 align="center">Conversão App - Vue</h1>
 
-## Project setup
-```
-npm install
-```
+## 📝 Descrição
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Site desenvolvido para o Trabalho Prático do módulo de Vue da pós-graduação em Desenvolvimento Front-end da [Faculdade XP | IGTI](https://www.xpeducacao.com.br/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## ✨ Tecnologias
 
-### Lints and fixes files
-```
-npm run lint
-```
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Vue.js 3](https://vuejs.org/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [Axios](https://axios-http.com/ptbr/)
+
+## 🚀 Como executar
+
+#### 2. Rodar o Frontend
+- Clone este repositório: `git clone git@github.com:MariaEmiliaAlcantara/Conversion-App-Vue.git`
+- Rode `npm install` para baixar as dependências
+- Rode o `npm run serve` para iniciar a aplicação
+- A aplicação estará disponível em `http://localhost:8080`!
+
+## 📷 Telas do aplicativo
