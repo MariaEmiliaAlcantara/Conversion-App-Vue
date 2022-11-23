@@ -35,14 +35,19 @@ export default {
       totalDolars: 0,
       conversion: {},
       showParagraph: false,
+      message: "",
     };
   },
   methods: {
     async getConversion() {
-      const response = await axios.get(
-        "https://economia.awesomeapi.com.br/last/USD-BRL"
-      );
-      this.conversion = response.data.USDBRL;
+      try {
+        const response = await axios.get(
+          "https://economia.awesomeapi.com.br/last/USD-BRL"
+        );
+        this.conversion = response.data.USDBRL;
+      } catch (err) {
+        console.log(err);
+      }
     },
     handleCleanInput() {
       this.showParagraph = false;
