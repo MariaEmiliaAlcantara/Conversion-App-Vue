@@ -1,4 +1,4 @@
-<h1 align="center">Conversão - Vue</h1>
+<h1 align="center">Conversão App - Vue</h1>
 
 ## 📝 Descrição
 
