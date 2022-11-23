@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <HeaderVue></HeaderVue>
+  <ConversionVue />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeaderVue from "./components/Header.vue";
+import ConversionVue from "./components/Conversion.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    HeaderVue,
+    ConversionVue,
   },
 };
 </script>
@@ -24,5 +27,11 @@ export default {
 a {
   text-decoration: none;
   color: var(--black);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d3cdbf;
 }
 </style>

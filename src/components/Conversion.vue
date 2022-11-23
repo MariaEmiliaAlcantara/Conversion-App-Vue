@@ -1,11 +1,10 @@
 <template>
-  <div>Teste</div>
+  <main>Teste</main>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
-  props: {},
+  name: "Conversion-Vue",
 };
 </script>
 
