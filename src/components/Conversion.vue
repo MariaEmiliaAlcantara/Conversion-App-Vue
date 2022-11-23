@@ -89,6 +89,7 @@ export default {
   height: 3rem;
   width: 20rem;
   font-size: 0.875rem;
+  outline: none;
 }
 
 .container-buttons {
@@ -102,5 +103,11 @@ export default {
   border-radius: 8px;
   height: 2rem;
   width: 8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.container-buttons button:hover {
+  opacity: 0.8;
 }
 </style>
